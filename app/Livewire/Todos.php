@@ -12,9 +12,9 @@ class Todos extends Component
 
     public function mount(){
         $this->todos = [
-            'Go to the store',
-            'learn laravel',
-            'learn livewire'
+            'حب سيتامول',
+            'حب التهاب',
+            'أسبرين'
         ];
     }
 
