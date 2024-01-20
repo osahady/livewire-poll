@@ -17,6 +17,7 @@ class CreatePost extends Component
     public $description = "";
 
     public function add(){
+        dd('hello from create post');
         $this->validate();
         Medcine::create([
             'medcine' => $this->medcine,
